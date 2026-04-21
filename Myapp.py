@@ -13,6 +13,7 @@ st.markdown(f"""
     border: 1px solid #ccc;
 ">
     <h3>Sales Manager</h3>
+    <p><b>Company:</b> Loopol Corp</p>
     <p><b>Location:</b> Zurich, SUI</p>
     <p><b>Duration:</b> 3 months</p>
     <p><b>Tags:</b> Sales, Revenues</p>
