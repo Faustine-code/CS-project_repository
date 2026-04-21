@@ -6,3 +6,4 @@ with st.container(border=True):
     st.subheader("Sales Manager")
     st.write("Location:", "Zurich, SUI")
     st.write("Duration:", "3 months")
+    st.write("Tags:", "Sales, Revenues")
