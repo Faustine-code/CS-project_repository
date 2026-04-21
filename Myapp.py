@@ -1,5 +1,15 @@
 import streamlit as st
 
+st.markdown("""
+<style>
+div.stButton > button {
+    padding: 0.75em 1.5em;
+    font-size: 16px;
+    border-radius: 8px;
+}
+</style>
+""", unsafe_allow_html=True)
+
 if "show_form" not in st.session_state:
     st.session_state.show_form = False
 
@@ -24,8 +34,20 @@ st.markdown(f"""
 </div>
 """, unsafe_allow_html=True)
 
-if st.button("Apply"):
-    st.session_state.show_form = True
+if "show_form" not in st.session_state:
+    st.session_state.show_form = False
+
+def toggle_form():
+    st.session_state.show_form = not st.session_state.show_form
+
+
+# 👇 spacing so button is not glued to card
+st.markdown("<br>", unsafe_allow_html=True)
+
+# 👇 centered + bigger button
+col1, col2, col3 = st.columns([1, 2, 1])
+with col2:
+    st.button("Apply Now", on_click=toggle_form, use_container_width=True)
 
 if st.session_state.show_form:
     st.markdown("## Application Form")
