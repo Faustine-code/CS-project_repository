@@ -14,7 +14,7 @@ st.markdown(f"""
     <p><b>Duration:</b> 3 months</p>
     <p><b>Tags:</b> Sales, Revenues</p>
     <p>
-        You will be responsible for driving revenue growth,
+        Description: You will be responsible for driving revenue growth,
         managing client relationships, and developing sales strategies.
     </p>
 </div>
