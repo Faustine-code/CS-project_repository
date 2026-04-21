@@ -1,6 +1,6 @@
 import streamlit as st
 
-color = st.color_picker("Pick card color", "#87CEEB")
+color = st.color_picker("#87CEEB")
 
 st.markdown(f"""
 <div style="
