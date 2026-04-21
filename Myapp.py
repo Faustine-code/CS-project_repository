@@ -1,6 +1,6 @@
 import streamlit as st
 
-    st.markdown("""
+st.markdown("""
 <style>
 .custom-card {
     background-color: #87CEEB;
