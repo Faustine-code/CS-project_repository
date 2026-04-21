@@ -2,9 +2,11 @@ import streamlit as st
 
 color = st.color_picker("#87CEEB")
 
+card_color = "#e8f5e9"  # set your color here
+
 st.markdown(f"""
 <div style="
-    background-color: {color};
+    background-color: {card_color};
     padding: 20px;
     border-radius: 12px;
     border: 1px solid #ccc;
