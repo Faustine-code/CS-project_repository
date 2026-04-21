@@ -1,7 +1,5 @@
 import streamlit as st
 
-color = st.color_picker("#87CEEB")
-
 card_color = "#e8f5e9"  # set your color here
 
 st.markdown(f"""
@@ -21,3 +19,4 @@ st.markdown(f"""
     </p>
 </div>
 """, unsafe_allow_html=True)
+
